@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2016-12-11" view-index="0" gantt-divider-location="423" resource-divider-location="300" version="2.8.1" locale="en_MY">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Name" width="280" order="0"/>
+        <field id="tpd4" name="Begin date" width="70" order="1"/>
+        <field id="tpd5" name="End date" width="54" order="2"/>
+        <option id="color.recent"><![CDATA[#33ff00]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="21" name="Assignment 1" color="#8cb6ce" meeting="false" start="2017-01-22" duration="16" complete="0" thirdDate="2017-01-22" thirdDate-constraint="1" expand="true">
+            <depend id="33" type="2" difference="0" hardness="Strong"/>
+            <task id="137" name="Generate Project Concept" color="#8cb6ce" meeting="false" start="2017-01-22" duration="2" complete="0" expand="true"/>
+            <task id="138" name="Concept Analysis" color="#8cb6ce" meeting="false" start="2017-01-22" duration="2" complete="0" expand="true"/>
+            <task id="36" name="Project Overview" meeting="false" start="2017-01-23" duration="5" complete="0" expand="true"/>
+            <task id="37" name="Methodology" meeting="false" start="2017-01-27" duration="4" complete="0" expand="true"/>
+            <task id="38" name="Project Planning" meeting="false" start="2017-01-30" duration="5" complete="0" expand="true"/>
+            <task id="39" name="Resource Planning" meeting="false" start="2017-02-04" duration="3" complete="0" expand="true"/>
+        </task>
+        <task id="33" name="Assignment 2" meeting="false" start="2017-02-07" duration="14" complete="0" expand="true">
+            <depend id="34" type="2" difference="0" hardness="Strong"/>
+            <task id="139" name="Research Content Ideas" color="#8cb6ce" meeting="false" start="2017-02-07" duration="1" complete="0" expand="true"/>
+            <task id="40" name="Requirement Definition" color="#8cb6ce" meeting="false" start="2017-02-07" duration="3" complete="0" expand="true">
+                <depend id="41" type="2" difference="0" hardness="Strong"/>
+                <task id="158" name="Function Requirement" color="#8cb6ce" meeting="false" start="2017-02-07" duration="3" complete="0" expand="true"/>
+                <task id="157" name="Non-function Requirement" color="#8cb6ce" meeting="false" start="2017-02-07" duration="3" complete="0" expand="true"/>
+            </task>
+            <task id="41" name="Requirement Specification" meeting="false" start="2017-02-10" duration="10" complete="0" expand="true">
+                <task id="131" name="Use Cases" meeting="false" start="2017-02-10" duration="4" complete="0" expand="true">
+                    <depend id="133" type="2" difference="0" hardness="Strong"/>
+                    <task id="178" name="Use Case 1: Sign up" meeting="false" start="2017-02-10" duration="2" complete="0" expand="true"/>
+                    <task id="179" name="User Case 2: Log In" meeting="false" start="2017-02-10" duration="2" complete="0" expand="true"/>
+                    <task id="180" name="Use Case 3: Manage Account" meeting="false" start="2017-02-10" duration="2" complete="0" expand="true"/>
+                    <task id="181" name="Use Case 4: Upload Post" meeting="false" start="2017-02-11" duration="2" complete="0" expand="true"/>
+                    <task id="182" name="Use Case 5: Edit/Delete Post" meeting="false" start="2017-02-11" duration="2" complete="0" expand="true"/>
+                    <task id="183" name="Use Case 6: Check Report" meeting="false" start="2017-02-11" duration="2" complete="0" expand="true"/>
+                    <task id="184" name="Use Case 7: View" meeting="false" start="2017-02-12" duration="2" complete="0" expand="true"/>
+                    <task id="185" name="Use Case 8: Comment on Post" meeting="false" start="2017-02-12" duration="2" complete="0" expand="true"/>
+                    <task id="186" name="Use Case 9: Report" meeting="false" start="2017-02-12" duration="2" complete="0" expand="true"/>
+                    <task id="187" name="Use Case 10: Recom/N-Recom Post" meeting="false" start="2017-02-12" duration="2" complete="0" expand="true"/>
+                </task>
+                <task id="132" name="Use Case Diagrams" meeting="false" start="2017-02-10" duration="4" complete="0" expand="true">
+                    <depend id="133" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="133" name="Expended Use Cases" meeting="false" start="2017-02-14" duration="4" complete="0" expand="true">
+                    <depend id="134" type="2" difference="0" hardness="Strong"/>
+                    <task id="207" name="Use Case 1: Sign up" meeting="false" start="2017-02-14" duration="2" complete="0" expand="true"/>
+                    <task id="209" name="User Case 2: Log In" meeting="false" start="2017-02-14" duration="2" complete="0" expand="true"/>
+                    <task id="211" name="Use Case 3: Manage Account" meeting="false" start="2017-02-15" duration="2" complete="0" expand="true"/>
+                    <task id="213" name="Use Case 4: Upload Post" meeting="false" start="2017-02-15" duration="2" complete="0" expand="true"/>
+                    <task id="215" name="Use Case 5: Edit/Delete Post" meeting="false" start="2017-02-15" duration="2" complete="0" expand="true"/>
+                    <task id="217" name="Use Case 6: Check Report" meeting="false" start="2017-02-15" duration="2" complete="0" expand="true"/>
+                    <task id="219" name="Use Case 7: View" meeting="false" start="2017-02-16" duration="2" complete="0" expand="true"/>
+                    <task id="221" name="Use Case 8: Comment on Post" meeting="false" start="2017-02-16" duration="2" complete="0" expand="true"/>
+                    <task id="223" name="Use Case 9: Report" meeting="false" start="2017-02-16" duration="2" complete="0" expand="true"/>
+                    <task id="225" name="Use Case 10: Recom/N-Recom Post" meeting="false" start="2017-02-16" duration="2" complete="0" expand="true">
+                        <depend id="134" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="134" name="Analysis Class Diagram" meeting="false" start="2017-02-18" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="42" name="Presentation" meeting="false" start="2017-02-19" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="34" name="Assignment 3" meeting="false" start="2017-02-21" duration="21" complete="0" expand="true">
+            <depend id="68" type="2" difference="0" hardness="Strong"/>
+            <task id="140" name="Site Structure" color="#8cb6ce" meeting="false" start="2017-02-21" duration="3" complete="0" expand="true">
+                <depend id="141" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="141" name="Download Resources" color="#8cb6ce" meeting="false" start="2017-02-24" duration="1" complete="0" expand="true">
+                <depend id="57" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="57" name="Interface Design" meeting="false" start="2017-02-25" duration="9" complete="0" expand="true">
+                <depend id="69" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="58" name="Architectural Design" meeting="false" start="2017-02-26" duration="8" complete="0" expand="true">
+                <depend id="69" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="59" name="Data Design" meeting="false" start="2017-02-26" duration="8" complete="0" expand="true">
+                <depend id="69" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="60" name="Database/File Design" meeting="false" start="2017-02-26" duration="8" complete="0" expand="true">
+                <depend id="69" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="61" name="Test/Troubleshooting" meeting="false" start="2017-03-05" duration="4" complete="0" expand="true">
+                <depend id="69" type="2" difference="0" hardness="Strong"/>
+                <task id="100" name="Screenshots" meeting="false" start="2017-03-07" duration="2" complete="0" expand="true"/>
+                <task id="63" name="Test Developed Use Case" meeting="false" start="2017-03-05" duration="2" complete="0" expand="true"/>
+                <task id="64" name="Unit Testing" meeting="false" start="2017-03-05" duration="2" complete="0" expand="true"/>
+                <task id="65" name="Integration Testing" meeting="false" start="2017-03-05" duration="2" complete="0" expand="true"/>
+                <task id="66" name="System Testing" meeting="false" start="2017-03-05" duration="2" complete="0" expand="true"/>
+                <task id="56" name="Update Ganntt Chart" meeting="false" start="2017-03-07" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="69" name="Documentation" meeting="false" start="2017-03-09" duration="3" complete="0" expand="true">
+                <depend id="70" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="70" name="Presentation Prototype 1" meeting="false" start="2017-03-12" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="68" name="Assignment 4" meeting="false" start="2017-03-15" duration="23" complete="0" expand="true">
+            <task id="115" name="Update Designs" color="#8cb6ce" meeting="false" start="2017-03-15" duration="12" complete="0" expand="true">
+                <depend id="116" type="2" difference="0" hardness="Strong"/>
+                <depend id="118" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="118" name="Test/Troubleshooting" meeting="false" start="2017-03-27" duration="5" complete="0" expand="true">
+                <depend id="116" type="2" difference="0" hardness="Strong"/>
+                <task id="119" name="Screenshots" meeting="false" start="2017-03-30" duration="2" complete="0" expand="true"/>
+                <task id="120" name="Test Developed Use Case" color="#8cb6ce" meeting="false" start="2017-03-27" duration="3" complete="0" expand="true"/>
+                <task id="121" name="Unit Testing" meeting="false" start="2017-03-27" duration="3" complete="0" expand="true"/>
+                <task id="122" name="Integration Testing" meeting="false" start="2017-03-27" duration="3" complete="0" expand="true"/>
+                <task id="123" name="System Testing" meeting="false" start="2017-03-27" duration="3" complete="0" expand="true"/>
+                <task id="124" name="Update Ganntt Chart" meeting="false" start="2017-03-30" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="116" name="Documentation" meeting="false" start="2017-04-01" duration="3" complete="0" expand="true">
+                <depend id="117" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="117" name="Presentation Prototype 2" meeting="false" start="2017-04-04" duration="3" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
